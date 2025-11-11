@@ -1,5 +1,3 @@
-# Real_Time_Data_Aggregation_Service
-
 # Real-time Token Data Aggregation Service
 
 A production-ready Node.js service that aggregates real-time meme coin data from multiple DEX sources with efficient caching, WebSocket support, and real-time updates.
