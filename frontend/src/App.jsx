@@ -13,7 +13,7 @@ function App() {
 
   async function fetchInitialData() {
     try {
-      const res = await fetch("http://localhost:8000/api/tokens?limit=100&sortBy=market_cap_sol&order=desc");
+      const res = await fetch("https://solana-aggregation-service.onrender.com/api/tokens?limit=100&sortBy=market_cap_sol&order=desc");
       const json = await res.json();
 
       if (json.success && Array.isArray(json.data)) {
